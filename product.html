@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./img/logo-img.jpeg" type="image/x-icon" />
+    <title>The Coffee House</title>
+    <link rel="stylesheet" href="./fontawesome-free-5.15.4-web/css/all.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/grid.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <link rel="stylesheet" href="./css/product.css" />
+    <link rel="stylesheet" href="./css/responsive-product.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="header">
+            <ul class="header__list-contact">
+                <li class="header__item-contact">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>146 cửa hàng khắp cả nước</p>
+                </li>
+                <li class="header__item-contact">
+                    <i class="fas fa-phone"></i>
+                    <p>Đặt hàng: 1800 6936</p>
+                </li>
+                <li class="header__item-contact">
+                    <i class="fas fa-shipping-fast"></i>
+                    <p>Free ship từ 50.000vnd</p>
+                </li>
+            </ul>
+        </div>
+        <div style="margin-top: 42px;"class="header__navbar">
+            <label for="nav-mobile-input" class="header__navbar-menu">
+                <i class="header__navbar-menu-icon fas fa-bars"></i>
+            </label>
+
+            <input type="checkbox" name="" class="nav__input" id="nav-mobile-input" />
+            <label for="nav-mobile-input" class="header__navbar-overlay"> </label>
+            <ul class="header__navbar-list-mobile">
+                <li style="padding: 20px 20px 20px 15px; margin: 0" class="header__navbar-item">
+                    <label for="nav-mobile-input">
+                        <i style="font-size: 25px; cursor: pointer" class="fas fa-times"></i>
+                    </label>
+                </li>
+                <li class="header__navbar-item">
+                    <a href="" class="header__navbar-item-link">Cà phê</a>
+                </li>
+                <li class="header__navbar-item">
+                    <a href="" class="header__navbar-item-link">Trà</a>
+                </li>
+                <li class="header__navbar-item">
+                    <a href="" class="header__navbar-item-link">Menu
+                        <i class="fas fa-caret-down"></i>
+                    </a>
+                    <div class="navbar-sub">
+                        <ul class="navbar-sub-list">
+                            <li class="navbar-sub-item">
+                                <h3>Tất cả</h3>
+                            </li>
+                            <li class="navbar-sub-item">
+                                <h3>Cà phê</h3>
+                                <ul class="navbar-sub-more-list">
+                                    <li>Cà phê Việt Nam</li>
+                                    <li>Cà phê máy</li>
+                                    <li>Cold Brew</li>
+                                </ul>
+                            </li>
+                            <li class="navbar-sub-item">
+                                <h3>Trà</h3>
+                                <ul class="navbar-sub-more-list">
+                                    <li>Trà trái cây</li>
+                                    <li>Trà sữa</li>
+                                    <li>Macchiato</li>
+                                </ul>
+                            </li>
+                            <li class="navbar-sub-item">
+                                <h3>Món khác</h3>
+                                <ul class="navbar-sub-more-list">
+                                    <li>Đá say</li>
+                                    <li>Matcha-Sô cô la</li>
+                                </ul>
+                            </li>
+                            <li class="navbar-sub-item">
+                                <h3>Bánh & Snack</h3>
+                                <ul class="navbar-sub-more-list">
+                                    <li>Bánh mặn</li>
+                                    <li>Bánh ngọt</li>
+                                    <li>Snack</li>
+                                </ul>
+                            </li>
+                            <li class="navbar-sub-item">
+                                <h3>Tại nhà</h3>
+                                <ul class="navbar-sub-more-list">
+                                    <li>Cà phê tại nhà</li>
+                                    <li>Trà tại nhà</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="header__navbar-item">
+                    <a href="" class="header__navbar-item-link">Chuyện Cà phê và Trà
+                        <i class="fas fa-caret-down"></i>
+                    </a>
+                    <div class="navbar-sub">
+                        <ul class="navbar-sub-list">
+                            <li class="navbar-sub-item">
+                                <h3>Coffeeholic</h3>
+                                <ul class="navbar-sub-more-list">
+                                    <li>#chuyencaphe</li>
+                                    <li>#phacaphe</li>
+                                </ul>
+                            </li>
+                            <li class="navbar-sub-item">
+                                <h3>Teaholic</h3>
+                                <ul class="navbar-sub-more-list">
+                                    <li>#phatra</li>
+                                    <li>#cauchuyenvetra</li>
+                                    <li>#phacaphe</li>
+                                </ul>
+                            </li>
+                            <li class="navbar-sub-item">
+                                <h3>Blog</h3>
+                                <ul class="navbar-sub-more-list">
+                                    <li>#Inthemood</li>
+                                    <li>#Review</li>
+                                    <li>#HumanofTCH</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="header__navbar-item">
+                    <a href="" class="header__navbar-item-link">Cửa hàng </a>
+                </li>
+                <li class="header__navbar-item">
+                    <a href="" class="header__navbar-item-link">Tuyển dụng</a>
+                </li>
+            </ul>
+            <div class="header__navbar-logo">
+                <a href="#" class="header__navbar-logo-link">
+                    <img src="./img/logo-img.jpeg" alt="" />
+                </a>
+            </div>
+            <ul class="header__navbar-list">
+                <li class="header__navbar-item">
+                    <a href="" class="header__navbar-item-link">Cà phê</a>
+                </li>
+                <li class="header__navbar-item">
+                    <a href="" class="header__navbar-item-link">Trà</a>
+                </li>
+                <li class="header__navbar-item">
+                    <a href="" class="header__navbar-item-link">Menu
+                        <i class="fas fa-caret-down"></i>
+                    </a>
+                    <div class="navbar-sub">
+                        <ul class="navbar-sub-list">
+                            <li class="navbar-sub-item">
+                                <h3>Tất cả</h3>
+                            </li>
+                            <li class="navbar-sub-item">
+                                <h3>Cà phê</h3>
+                                <ul class="navbar-sub-more-list">
+                                    <li>Cà phê Việt Nam</li>
+                                    <li>Cà phê máy</li>
+                                    <li>Cold Brew</li>
+                                </ul>
+                            </li>
+                            <li class="navbar-sub-item">
+                                <h3>Trà</h3>
+                                <ul class="navbar-sub-more-list">
+                                    <li>Trà trái cây</li>
+                                    <li>Trà sữa</li>
+                                    <li>Macchiato</li>
+                                </ul>
+                            </li>
+                            <li class="navbar-sub-item">
+                                <h3>Món khác</h3>
+                                <ul class="navbar-sub-more-list">
+                                    <li>Đá say</li>
+                                    <li>Matcha-Sô cô la</li>
+                                </ul>
+                            </li>
+                            <li class="navbar-sub-item">
+                                <h3>Bánh & Snack</h3>
+                                <ul class="navbar-sub-more-list">
+                                    <li>Bánh mặn</li>
+                                    <li>Bánh ngọt</li>
+                                    <li>Snack</li>
+                                </ul>
+                            </li>
+                            <li class="navbar-sub-item">
+                                <h3>Tại nhà</h3>
+                                <ul class="navbar-sub-more-list">
+                                    <li>Cà phê tại nhà</li>
+                                    <li>Trà tại nhà</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="header__navbar-item">
+                    <a href="" class="header__navbar-item-link">Chuyện Cà phê và Trà
+                        <i class="fas fa-caret-down"></i>
+                    </a>
+                    <div class="navbar-sub">
+                        <ul class="navbar-sub-list">
+                            <li class="navbar-sub-item">
+                                <h3>Coffeeholic</h3>
+                                <ul class="navbar-sub-more-list">
+                                    <li>#chuyencaphe</li>
+                                    <li>#phacaphe</li>
+                                </ul>
+                            </li>
+                            <li class="navbar-sub-item">
+                                <h3>Teaholic</h3>
+                                <ul class="navbar-sub-more-list">
+                                    <li>#phatra</li>
+                                    <li>#cauchuyenvetra</li>
+                                    <li>#phacaphe</li>
+                                </ul>
+                            </li>
+                            <li class="navbar-sub-item">
+                                <h3>Blog</h3>
+                                <ul class="navbar-sub-more-list">
+                                    <li>#Inthemood</li>
+                                    <li>#Review</li>
+                                    <li>#HumanofTCH</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="header__navbar-item">
+                    <a href="" class="header__navbar-item-link">Cửa hàng </a>
+                </li>
+                <li class="header__navbar-item">
+                    <a href="" class="header__navbar-item-link">Tuyển dụng</a>
+                </li>
+            </ul>
+        </div>
+        <div class="product">
+            <div class="grid wide">
+                <div class="product__info">
+
+                    <div class="row">
+                        <div class="col l-12 m-12 c-12">
+                            <ul class="product__group">
+                                <li class="product__group-item">
+                                    <a href="" class="product__group-item-link">Menu <span>/</span></a>
+                                </li>
+                                <li class="product__group-item">
+                                    <a href="" class="product__group-item-link">Cà phê Việt Nam <span>/</span></a>
+                                </li>
+                                <li class="product__group-item ">
+                                    <a href="" class="product__group-item-link product__group-item-link-active">Cà phê sữa
+                                        đá <span>/</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row sm-gutter col">
+                        <div class="col l-6 m-12 c-12">
+                            <div class="product__item-list-img">
+                                <img src="./img/ca-phe-sua-da_b00c53d18cd84144a164790323106a2f_large.jpeg" alt="" class="product__item-img">
+                                <img src="./img/ca-phe-sua-da2_lifestyle_7a1a3064a88e4fec8f543eb548840487.jpeg" alt="" class="product__item-img">
+                            </div>
+                            
+                        </div>
+                        <div class="col l-6 m-12 c-12">
+                            <div class="product__info-wrap">
+
+                                <h3 class="product__name">
+                                    Cà phê sữa đá
+                                </h3>
+                                <h3 class="product__price">18.000 đ</h3>
+                                <div class="product__size">
+                                    <p class="product__size-heading">Kích thước</p>
+                                    <div class="product__size-option">
+                                        <div class="product__size-btn btn-active">
+                                            <i class="fas fa-coffee"></i>
+                                            Nhỏ
+                                        </div>
+                                        <div class="product__size-btn">
+                                            <i class="fas fa-coffee"></i>
+                                            Vừa +6000đ
+                                        </div>
+                                        <div class="product__size-btn">
+                                            <i class="fas fa-coffee"></i>
+                                            Lớn +10000đ
+                                        </div>
+        
+                                    </div>
+                                </div>
+                                <div class="product__delivery">
+        
+                                    <div class="product__size-btn btn-active">
+                                        <i class="fas fa-shipping-fast"></i>
+                                        Đặt giao tận nơi
+                                    </div>
+                                    <div class="product__delivery-method">
+                                        <div class="product__size-btn">
+                                            <i class="fas fa-store"></i>
+                                            Mua tại cửa hàng
+                                        </div>
+                                        <div class="product__size-btn">
+                                            <i class="fas fa-mobile-alt"></i>
+                                            Mua mang về
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product__buy-combo">
+                    <h4>Hay được mua kèm</h4>
+                    <div class="row sm-gutter col">
+                        <div class="col l-2 m-4 c-6">
+                            <div class="content__product">
+                                <div
+                                  class="content__product-img"
+                                  style="
+                                    background-image: url(./img/banhmique_683851_400x400_51f39f17da7046ff8ef76aa17c29225a_large.jpeg);
+                                  "
+                                ></div>
+                                <div class="content__product-info">
+                                  <h3 class="content__product-name">Bánh Mì Que Pate Cay</h3>
+                                 
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col l-2 m-4 c-6">
+                            <div class="content__product">
+                                <div
+                                  class="content__product-img"
+                                  style="
+                                    background-image: url(./img/croissant-trung-muoi_880850_400x400_0d8d5e787de8423cb0e60455651a17ee_large.jpeg);
+                                  "
+                                ></div>
+                                <div class="content__product-info">
+                                  <h3 class="content__product-name">Croissant Trứng Muối</h3>
+                                  
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col l-2 m-4 c-6">
+                            <div class="content__product">
+                                <div
+                                  class="content__product-img"
+                                  style="
+                                    background-image: url(./img/cha-bong-pho-mai_204282_400x400_8ff5f28305f547c287685bb01a8836fd_large.jpeg);
+                                  "
+                                ></div>
+                                <div class="content__product-info">
+                                  <h3 class="content__product-name">Chà Bông Phô Mai</h3>
+                                 
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product__info-and-story">
+                    <div class="row sm-gutter col">
+                        <div class="col l-6 m-12 c-12">
+                            <h3 class="product__info-heading">
+                                Thông Tin
+                            </h3>
+                            <p class="product__info-description">
+                                Cà phê được pha phin truyền thống kết hợp với sữa đặc tạo nên hương vị đậm đà, hài hòa giữa vị ngọt đầu lưỡi và vị đắng thanh thoát nơi hậu vị.
+                            </p>
+                        </div>
+                        <div class="col l-6 m-12 c-12">
+                            <div class="product__story">
+                                <h3 class="product__info-heading">
+                                    Câu chuyện
+                                </h3>
+                                <h2 class="product__story-heading">Cà phê sữa đá - Sự độc đáo trong thưởng thức cà phê của người Việt</h2>
+                                <p class="product__story-paragrap text-italic">Cà phê phin kết hợp cùng sữa đặc là một sáng tạo đầy tự hào của người Việt, được xem món uống thương hiệu của Việt Nam.</p>
+                                <p class="product__story-paragrap">
+                                    Khi người Pháp đem văn hóa cà phê vào Việt Nam, người bản xứ thay thế sữa tươi đắt đỏ bằng sữa đặc rẻ tiền hơn để pha cùng cà phê. Tuy nhiên, bằng sự kết hợp hài hòa giữa các thái cực <span>đắng – ngọt, bùi – béo</span>, ly cà phê sữa đá lại sánh đặc và đậm đà hơn, không làm mất đi công dụng của cà phê mà bổ sung thêm năng lượng cho cơ thể từ sữa đã trở thành quen thuộc với nếp sống của người Việt và là một nét sáng tạo riêng, chinh phục được trái tim hàng triệu người yêu cà phê trên thế giới.
+                                </p>
+                                <p class="product__story-paragrap">
+                                   <span>Nhà báo Nicola Graydon</span> từng miêu tả và chia sẻ cảm nhận của mình trên tờ nhật báo nổi tiếng của Anh rằng: "Đó là loại cà phê mạnh, nhỏ giọt từ một phin kim loại nhỏ, bên dưới ly chứa khoảng ¼ lượng sữa đặc. Sau khoảng 15 phút, khi café ngừng nhỏ giọt, bạn sẽ khuấy đều và cho đá vào. Đầu tiên, tôi không chịu được cái ngọt kiểu như vậy. Tuy nhiên sau 3 ngày, tôi bị khuất phục và nghiện cái ngọt “thần thánh” ấy. Thật tuyệt vời khi cảm nhận cái ngọt thanh mát trong cuống họng, điều mà chúng ta không thấy ở một ly latte cổ điển”.
+                                </p>
+                                <img style="width: 100%;height: 450px;"src="./img/ca-phe-sua-da2_lifestyle_7a1a3064a88e4fec8f543eb548840487.jpeg" alt="">
+                                <p class="product__story-paragrap">
+                                    Cũng có người đã miêu tả Cà phê sữa đá rằng: Cà phê thì đắng mà sữa lại quá ngọt ngào. Hai vị đắng - ngọt như hương vị của cuộc sống, nên thưởng thức Cà phê sữa cũng giống như đang thưởng thức cuộc sống.
+                                </p>
+                                <p class="product__story-paragrap text-color">
+                                    
+                                    Và The Coffee House nghĩ rằng: Chằng có cách nào mô tả chính xác được mùi vị của Cà phê sữa Việt Nam hơn việc tự mình thưởng thức. Còn gì tuyệt vời hơn khi bắt đầu một ngày làm việc tràn đầy năng lượng hay tận hưởng ngày nghỉ của mình bằng một ly Cà phê sữa tinh tế đúng không nào!.
+                                </p>
+                            </div>
+                            <div class="product__story-see"href="">Xem thêm</div>
+                            <div class="product__story-hide"href="">Ẩn bớt</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product__related">
+                    <h4>Hay được mua kèm</h4>
+                    <div class="row sm-gutter col">
+                        <div class="col  l-2 m-4 c-6">
+                            <div class="content__product">
+                                <div
+                                  class="content__product-img"
+                                  style="
+                                    background-image: url(./img/cf\ sua\ da\ hop\ 10\ goi.jpeg);
+                                  "
+                                >
+                                </div>
+                                <div class="content__product-info">
+                                  <h3 class="content__product-name">Cà Phê Sữa Đá Hòa Tan Hộp 10 gói</h3>
+                                  <p class="content__product-price">44.000 đ</p>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col  l-2 m-4 c-6">
+                            <div class="content__product">
+                                <div
+                                  class="content__product-img"
+                                  style="
+                                    background-image: url(./img/cold-brew-sua-tuoi_379576_400x400_fd791b0775f846e193ff35739cc51ff2_large.jpeg);
+                                  "
+                                >
+                                </div>
+                                <div class="content__product-info">
+                                  <h3 class="content__product-name">Cold Brew Sữa Tươi</h3>
+                                  <p class="content__product-price">45.000 đ</p>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col  l-2 m-4 c-6">
+                            <div class="content__product">
+                                <div
+                                  class="content__product-img"
+                                  style="
+                                    background-image: url(./img/bac-siu-da_9bf82220a1a54847aa7357de541e7552_large.jpeg);
+                                  "
+                                >
+                                </div>
+                                <div class="content__product-info">
+                                  <h3 class="content__product-name">Bạc Sỉu Đá</h3>
+                                  <p class="content__product-price">29.000 đ</p>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact">
+            <div class="contact__phone">
+                <i class="fas fa-headphones-alt"></i>
+                <a class="contact__phone-hotline">Hotline</a>
+            </div>
+            <div class="contact__page">
+                <i class="fab fa-facebook-messenger"></i>
+            </div>
+            <div class="contact__page-with-face">
+                <div class="contact__page-with-face-menu">
+                    <img src="./img/logo-img.jpeg" alt="" class="contact__page-with-face-img" />
+                    <div class="contact__page-with-face-menu-list">
+                        <div class="contact__page-with-face-acc">
+                            <img src="./img/tea1.jpeg" alt="" />
+                            <i class="fas fa-sort-down"></i>
+                        </div>
+                        <div class="contact__page-with-face-ellipsis">
+                            <i class="fas fa-ellipsis-h"></i>
+                        </div>
+                        <div class="contact__page-with-face-hide">
+                            <i class="fas fa-minus"></i>
+                        </div>
+                    </div>
+                </div>
+                <h2 class="contact__page-with-face-heading">
+                    Chat với The Coffe House
+                    <svg class="b6ax4al1" viewBox="0 0 24 24" width="18" height="18" xmlns="http://www.w3.org/2000/svg"
+                        fill="#1b77f2">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M1.81832 12.3781C0.641541 13.6853 0.172694 15.2929 0.740548 16.6638C1.3084 18.0347 2.77666 18.8399 4.53307 18.9322C4.81971 18.9472 5.05279 19.1803 5.06784 19.4669C5.16003 21.2234 5.96524 22.6916 7.33617 23.2595C8.7071 23.8273 10.3147 23.3585 11.6219 22.1817C11.8352 21.9896 12.1648 21.9896 12.3782 22.1817C13.6853 23.3585 15.2929 23.8273 16.6638 23.2595C18.0347 22.6916 18.84 21.2234 18.9322 19.467C18.9472 19.1803 19.1803 18.9472 19.4669 18.9322C21.2234 18.84 22.6916 18.0348 23.2595 16.6639C23.8273 15.2929 23.3585 13.6853 22.1817 12.3782C21.9896 12.1648 21.9896 11.8352 22.1817 11.6219C23.3585 10.3147 23.8273 8.70712 23.2595 7.33619C22.6916 5.96526 21.2233 5.16005 19.4669 5.06786C19.1803 5.05281 18.9472 4.81973 18.9321 4.53309C18.8399 2.77665 18.0347 1.30838 16.6638 0.740519C15.2929 0.172663 13.6853 0.641513 12.3781 1.8183C12.1648 2.01034 11.8352 2.01034 11.6218 1.8183C10.3147 0.641545 8.7071 0.172712 7.33619 0.74056C5.96527 1.30841 5.16006 2.77667 5.06785 4.53308C5.05281 4.81972 4.81972 5.0528 4.53308 5.06784C2.77665 5.16004 1.30838 5.96524 0.740519 7.33617C0.17266 8.7071 0.641519 10.3147 1.81831 11.6219C2.01036 11.8352 2.01036 12.1648 1.81832 12.3781ZM17.3648 8.00218C17.6421 7.52457 17.4797 6.91258 17.0021 6.63525C16.5245 6.35793 15.9125 6.5203 15.6352 6.99791L11.2253 14.5927C11.1429 14.7347 10.9484 14.76 10.8323 14.644L8.20711 12.0187C7.81658 11.6282 7.18342 11.6282 6.79289 12.0187C6.40237 12.4093 6.40237 13.0424 6.79289 13.433L10.5671 17.2071C10.7866 17.4267 11.0956 17.5318 11.4035 17.4916C11.7113 17.4515 11.9831 17.2707 12.139 17.0022L17.3648 8.00218Z">
+                        </path>
+                    </svg>
+                </h2>
+                <p class="contact__page-with-face-desc">
+                    Thường phản hồi trong vòng một giờ
+                </p>
+                <div class="contact__page-with-face-loggin">
+                    <button style="
+                background-color: #0a7cff;
+                font-size: 18px;
+                color: var(--white-color);
+                font-weight: 600;
+                cursor: pointer;
+              ">
+                        <i style="margin-right: 10px; font-size: 16px" class="fab fa-facebook-messenger"></i>
+                        Tiếp tục dưới tên Tuân
+                    </button>
+                    <button style="
+                background-color: #e2e2e2;
+                font-size: 18px;
+                color: var(--black-color);
+                font-weight: 600;
+                cursor: pointer;
+              ">
+                        Tiếp tục dưới vai trò khách
+                    </button>
+                </div>
+                <div>
+                    <p class="contact__page-with-face-rules">
+                        Bằng cách tiếp tục với vai trò khách, bạn đồng ý với
+                        <a href="">Điều khoản</a>,<a href="">Chính sách dữ liệu</a>,và
+                        <a href="">Chính sách Cookie</a> của Facebook
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="grid wide">
+                <div class="row sm-gutter col">
+                    <div class="col l-3 m-6 c-12 m-t-20">
+                        <div class="footer_introduce-and-rules">
+                            <h6 class="footer_introduce-and-rules-heading">Giới thiệu</h6>
+                            <ul class="footer_introduce-and-rules-list">
+                                <li class="footer_introduce-and-rules-item">
+                                    <a href="">Về Chúng Tôi</a>
+                                </li>
+                                <li class="footer_introduce-and-rules-item">
+                                    <a href="">Sản phẩm</a>
+                                </li>
+                                <li class="footer_introduce-and-rules-item">
+                                    <a href="">Khuyến Mãi</a>
+                                </li>
+                                <li class="footer_introduce-and-rules-item">
+                                    <a href="">Chuyện Cà Phê</a>
+                                </li>
+                                <li class="footer_introduce-and-rules-item">
+                                    <a href="">Cửa hàng</a>
+                                </li>
+                                <li class="footer_introduce-and-rules-item">
+                                    <a href="">Tuyển dụng</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col l-3 m-6 c-12 m-t-20">
+                        <div class="footer_introduce-and-rules">
+                            <h6 class="footer_introduce-and-rules-heading">Điều Khoản</h6>
+                            <ul class="footer_introduce-and-rules-list">
+                                <li class="footer_introduce-and-rules-item">
+                                    <a href="">Điều khoản sử dụng</a>
+                                </li>
+                                <li class="footer_introduce-and-rules-item">
+                                    <a href="">Quy tắc bảo mật</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col l-3 m-6 c-12 m-t-20">
+                        <div class="footer__contact">
+                            <h6 class="footer__contact-phone">
+                                <i class="fas fa-phone-alt"></i>
+                                Đặt hàng: 1800 6936
+                            </h6>
+                            <h6 class="footer__contact-phone">
+                                <i class="fas fa-map-marker-alt"></i>
+                                Liên hệ
+                            </h6>
+                            <p class="footer__contact-place">
+                                Tầng 3-4 Hub Building 195/10E Điện Biên Phủ, P.15 ,Q.Bình
+                                Thạnh, TP.Hồ Chí Minh
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col l-3 m-6 c-12 m-t-20">
+                        <div class="footer__social">
+                            <div class="footer__social-background">
+                                <div class="footer__social-page">
+                                    <a href="">
+                                        <img src="./img/logo-img.jpeg" alt="" class="footer__social-page-img" />
+                                    </a>
+                                    <div class="footer__social-page-info">
+                                        <div class="footer__social-page-link-wrap">
+                                            <a href="" class="footer__social-page-link">
+                                                The Coffee House
+                                            </a>
+                                            <div class="icon-check">
+                                                <i class="fas fa-check-circle"></i>
+                                            </div>
+                                        </div>
+                                        <p>601k follow</p>
+                                    </div>
+                                </div>
+                                <div class="footer__social-follow">
+                                    <a href="">
+                                        <i class="fab fa-facebook-square"></i>
+                                        Like Page
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="footer__social-icons">
+                                <a href="" class="footer__social-link">
+                                    <i class="fab fa-facebook-square"></i>
+                                </a>
+                                <a href="" class="footer__social-link">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./script/app.js"></script>
+    <script></script>
+</body>
+<script src="./script/script.js"></script>
+<script src="./script/product.js"></script>
+
+</html>

@@ -1,0 +1,198 @@
+:root {
+    --primary-color: #ea8025;
+    --text-color: #000;
+    --white-color: #fff;
+    --header_height: 42px;
+    --width-dot: 78px;
+    --left-dot: 88px;
+  }
+  .text-italic{
+      font-style: italic;
+  }
+  .text-color{
+      color: #FF6600;
+  }
+  .product__info{
+      padding-bottom: 120px;
+      border-bottom: 1px solid #EEEEEE;
+    
+  }
+  .product{
+      margin-top: 42px;
+  }
+.product__group {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 34px 0;
+}
+.product__group-item {
+  margin-left: 10px;
+}
+.product__group-item-link {
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+}
+.product__group-item-link span {
+  margin-left: 10px;
+}
+.product__group-item-link-active {
+  color: #777 !important;
+}
+.product__group-item-link-active span {
+  display: none;
+}
+.product__item-list-img{
+    /* overflow: hidden; */
+    position: relative;
+    
+}
+.product__item-list-img img{
+    border-radius: 2px;
+    width: 100%;
+    
+}
+.product__name{
+    font-size: 24px;
+    
+}
+.product__price{
+    font-size: 24px;
+    color: var(--primary-color);
+    margin: 20px 0;
+}
+.product__size-option{
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 0 24px 0;
+}
+.btn-active{
+    background-color: var(--primary-color);
+    color: var(--white-color) !important;
+    border: none !important;
+}
+.product__size-btn{
+    padding: 14px 20px;
+    /* color: var(--white-color); */
+    color: #666;
+    border: 1px solid #666;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px ;
+}
+.product__size-btn i{
+    margin-right: 6px;
+}
+.product__delivery{
+    display: flex;
+    flex-direction: column;
+}
+.product__delivery-method{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.product__delivery-method .product__size-btn{
+    width: 100%;
+    background-color: #FFF7E6;
+    color: var(--primary-color);
+    border: none;
+}
+.product__delivery-method .product__size-btn:first-child{
+    margin-right: 20px;
+}
+.product__item-list-img .slick-arrow{
+    font-size: 18px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: unset;
+}
+.product__item-list-img .slick-prev{
+    left: 10px;
+}
+.product__item-list-img .slick-next{
+    right: 10px;
+}
+.product__item-list-img .slick-dots{
+    bottom: -90px;
+    left: var(--left-dot);
+    /* z-index: 10; */
+    position: absolute;
+    
+}
+.product__item-list-img .slick-dots li button{
+    background-image: url('/img/ca-phe-sua-da_b00c53d18cd84144a164790323106a2f_large.jpeg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 50%;
+    background-position: center;
+    font-size: 0;
+    width: var(--width-dot);
+    height: 78px;
+    border: none;
+    border-radius: 5px;
+    
+}
+.product__item-list-img .slick-dots li:last-child button{
+    background-image: url('/img/ca-phe-sua-da2_lifestyle_7a1a3064a88e4fec8f543eb548840487.jpeg');
+}
+.product__item-list-img li.slick-active{
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+}
+.product__item-list-img li{
+    margin-right: 10px;
+}
+.product__buy-combo{
+    padding: 30px 0;
+    border-bottom: 1px solid #EEE;
+
+}
+.product__buy-combo h4{
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.product__info-description{
+    max-width: 279px;
+}
+.product__info-and-story{
+    padding: 30px 0;
+    border-bottom: 1px solid #EEE;
+
+}
+.product__info-and-story p{
+    margin: 8px 0;
+    line-height: 1.6;
+    font-size: 15px;
+}
+.product__story-heading{
+    margin-top: 20px;
+}
+.product__story-paragrap span{
+    font-weight: 600;
+}
+.product__story{
+    max-height: 150px;
+    overflow: hidden;
+    transition: all .5s linear;
+}
+.product__story-hide,
+.product__story-see{
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #FF6600;
+    cursor: pointer;
+}
+.product__story-hide{
+    display: none;
+}
+.product__related{
+    padding: 30px 0;
+}
+.product__related h4{
+    margin-bottom: 20px;
+}
